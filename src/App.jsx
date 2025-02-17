@@ -9,8 +9,7 @@ function App() {
   //　HTMLを表示する //
   return (
     <>
-    <BrowserRouter basename="/New-Form-App">
-      <Router>
+      <Router basename="/New-Form-App">
         <div className="inquiry-container">
           <h1 className="Title">★お問い合わせぇ★</h1>
           <nav>
@@ -27,7 +26,6 @@ function App() {
           </Routes>
         </div>
       </Router>
-    </BrowserRouter>
     </>
   )
 }
